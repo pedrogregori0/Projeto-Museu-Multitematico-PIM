@@ -57,6 +57,7 @@
             btnListaAvaliacaoPergunta1.Text = "Lista de Avaliação";
             btnListaAvaliacaoPergunta1.TextAlign = ContentAlignment.BottomCenter;
             btnListaAvaliacaoPergunta1.UseVisualStyleBackColor = true;
+            btnListaAvaliacaoPergunta1.Click += btnListaAvaliacaoPergunta1_Click;
             // 
             // btnHomePergunta1
             // 
