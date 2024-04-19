@@ -104,6 +104,7 @@
             btnHomeListaAvaliacao.Text = "Home";
             btnHomeListaAvaliacao.TextAlign = ContentAlignment.BottomCenter;
             btnHomeListaAvaliacao.UseVisualStyleBackColor = true;
+            btnHomeListaAvaliacao.Click += btnHomeListaAvaliacao_Click;
             // 
             // btnVoltarListaAvaliacao
             // 
