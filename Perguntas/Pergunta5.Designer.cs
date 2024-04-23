@@ -40,20 +40,20 @@
             // lblPergunta5
             // 
             lblPergunta5.AutoSize = true;
-            lblPergunta5.Location = new Point(131, 76);
+            lblPergunta5.Location = new Point(150, 101);
             lblPergunta5.Name = "lblPergunta5";
-            lblPergunta5.Size = new Size(375, 15);
+            lblPergunta5.Size = new Size(467, 20);
             lblPergunta5.TabIndex = 36;
             lblPergunta5.Text = "Cite um tema que você gostaria de ver futuramente em nosso museu:";
             // 
             // btnListaAvaliacaoPergunta5
             // 
+            btnListaAvaliacaoPergunta5.Enabled = false;
             btnListaAvaliacaoPergunta5.Image = Properties.Resources.botao_lista;
             btnListaAvaliacaoPergunta5.ImageAlign = ContentAlignment.TopCenter;
-            btnListaAvaliacaoPergunta5.Location = new Point(494, 316);
-            btnListaAvaliacaoPergunta5.Margin = new Padding(3, 2, 3, 2);
+            btnListaAvaliacaoPergunta5.Location = new Point(565, 421);
             btnListaAvaliacaoPergunta5.Name = "btnListaAvaliacaoPergunta5";
-            btnListaAvaliacaoPergunta5.Size = new Size(82, 82);
+            btnListaAvaliacaoPergunta5.Size = new Size(94, 109);
             btnListaAvaliacaoPergunta5.TabIndex = 35;
             btnListaAvaliacaoPergunta5.Text = "Lista de Avaliação";
             btnListaAvaliacaoPergunta5.TextAlign = ContentAlignment.BottomCenter;
@@ -62,22 +62,22 @@
             // btnProximoPergunta5
             // 
             btnProximoPergunta5.Image = Properties.Resources.botao_direita;
-            btnProximoPergunta5.Location = new Point(365, 316);
-            btnProximoPergunta5.Margin = new Padding(3, 2, 3, 2);
+            btnProximoPergunta5.Location = new Point(417, 421);
             btnProximoPergunta5.Name = "btnProximoPergunta5";
-            btnProximoPergunta5.Size = new Size(82, 82);
+            btnProximoPergunta5.Size = new Size(94, 109);
             btnProximoPergunta5.TabIndex = 34;
             btnProximoPergunta5.Text = "Próximo";
             btnProximoPergunta5.TextAlign = ContentAlignment.BottomCenter;
             btnProximoPergunta5.UseVisualStyleBackColor = true;
+            btnProximoPergunta5.Click += btnProximoPergunta5_Click;
             // 
             // btnVoltarPergunta5
             // 
+            btnVoltarPergunta5.Enabled = false;
             btnVoltarPergunta5.Image = Properties.Resources.botao_esquerda;
-            btnVoltarPergunta5.Location = new Point(237, 316);
-            btnVoltarPergunta5.Margin = new Padding(3, 2, 3, 2);
+            btnVoltarPergunta5.Location = new Point(271, 421);
             btnVoltarPergunta5.Name = "btnVoltarPergunta5";
-            btnVoltarPergunta5.Size = new Size(82, 82);
+            btnVoltarPergunta5.Size = new Size(94, 109);
             btnVoltarPergunta5.TabIndex = 33;
             btnVoltarPergunta5.Text = "Voltar";
             btnVoltarPergunta5.TextAlign = ContentAlignment.BottomCenter;
@@ -86,39 +86,38 @@
             // btnHomePergunta5
             // 
             btnHomePergunta5.Image = Properties.Resources.botao_home;
-            btnHomePergunta5.Location = new Point(111, 316);
-            btnHomePergunta5.Margin = new Padding(3, 2, 3, 2);
+            btnHomePergunta5.Location = new Point(127, 421);
             btnHomePergunta5.Name = "btnHomePergunta5";
-            btnHomePergunta5.Size = new Size(82, 82);
+            btnHomePergunta5.Size = new Size(94, 109);
             btnHomePergunta5.TabIndex = 32;
             btnHomePergunta5.Text = "Home";
             btnHomePergunta5.TextAlign = ContentAlignment.BottomCenter;
             btnHomePergunta5.UseVisualStyleBackColor = true;
+            btnHomePergunta5.Click += btnHomePergunta5_Click;
             // 
             // lblPergunta5Enunciado
             // 
             lblPergunta5Enunciado.AutoSize = true;
-            lblPergunta5Enunciado.Location = new Point(100, 13);
+            lblPergunta5Enunciado.Location = new Point(114, 17);
             lblPergunta5Enunciado.Name = "lblPergunta5Enunciado";
-            lblPergunta5Enunciado.Size = new Size(64, 15);
+            lblPergunta5Enunciado.Size = new Size(79, 20);
             lblPergunta5Enunciado.TabIndex = 27;
             lblPergunta5Enunciado.Text = "Pergunta 5";
             // 
             // txbPergunta5
             // 
-            txbPergunta5.Location = new Point(100, 157);
-            txbPergunta5.Margin = new Padding(3, 2, 3, 2);
+            txbPergunta5.AcceptsReturn = true;
+            txbPergunta5.Location = new Point(114, 209);
             txbPergunta5.Multiline = true;
             txbPergunta5.Name = "txbPergunta5";
-            txbPergunta5.Size = new Size(472, 126);
+            txbPergunta5.Size = new Size(539, 167);
             txbPergunta5.TabIndex = 37;
-            txbPergunta5.TextChanged += textBox1_TextChanged;
             // 
             // Pergunta5
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(677, 411);
+            ClientSize = new Size(774, 548);
             Controls.Add(txbPergunta5);
             Controls.Add(lblPergunta5);
             Controls.Add(btnListaAvaliacaoPergunta5);
@@ -126,7 +125,6 @@
             Controls.Add(btnVoltarPergunta5);
             Controls.Add(btnHomePergunta5);
             Controls.Add(lblPergunta5Enunciado);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Pergunta5";
             Text = "Pergunta 5";
             ResumeLayout(false);

@@ -3,6 +3,7 @@ namespace Projeto_Museu_Multitematico_PIM
     public partial class ListaDeAvaliacao : Form
     {
         Thread TelaHome;
+        Thread TelaFormulario;
         Thread TelaPergunta1;
         Thread TelaPergunta2;
         Thread TelaPergunta3;
@@ -17,6 +18,10 @@ namespace Projeto_Museu_Multitematico_PIM
             Application.Run(new Home());
         }
 
+        private void abrirTelaFormulario(object obj)
+        {
+            Application.Run(new Formulario());
+        }
         private void abrirTelaPergunta1(object obj)
         {
             Application.Run(new Pergunta1());
@@ -52,9 +57,9 @@ namespace Projeto_Museu_Multitematico_PIM
         private void btnPergunta1_Click(object sender, EventArgs e)
         {
             this.Close();
-            TelaPergunta1 = new Thread(abrirTelaPergunta1);
-            TelaPergunta1.SetApartmentState(ApartmentState.STA);
-            TelaPergunta1.Start();
+            TelaFormulario = new Thread(abrirTelaFormulario);
+            TelaFormulario.SetApartmentState(ApartmentState.STA);
+            TelaFormulario.Start();
         }
 
         private void btnPergunta2_Click(object sender, EventArgs e)
