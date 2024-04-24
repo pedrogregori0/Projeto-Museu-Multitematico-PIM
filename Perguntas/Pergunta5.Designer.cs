@@ -112,6 +112,7 @@
             txbPergunta5.Name = "txbPergunta5";
             txbPergunta5.Size = new Size(539, 167);
             txbPergunta5.TabIndex = 37;
+            txbPergunta5.TextChanged += txbPergunta5_TextChanged;
             // 
             // Pergunta5
             // 

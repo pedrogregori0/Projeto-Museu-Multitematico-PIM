@@ -23,6 +23,12 @@ namespace Projeto_Museu_Multitematico_PIM
             Application.Run(new Home());
         }
 
+        private void mostrarTecladoVirtual(TextBox textBox)
+        {
+            teclado teclado = new teclado();
+            teclado.ShowDialog();
+        }
+
         private void btnHomePergunta5_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -44,6 +50,15 @@ namespace Projeto_Museu_Multitematico_PIM
                 TelaHome.SetApartmentState(ApartmentState.STA);
                 TelaHome.Start();
             }
+        }
+
+        private void txbPergunta5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void txbPergunta5_Click(object obj)
+        {
+            
         }
     }
 }
