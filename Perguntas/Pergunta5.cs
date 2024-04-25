@@ -25,8 +25,7 @@ namespace Projeto_Museu_Multitematico_PIM
 
         private void mostrarTecladoVirtual(TextBox textBox)
         {
-            teclado teclado = new teclado();
-            teclado.ShowDialog();
+ 
         }
 
         private void btnHomePergunta5_Click(object sender, EventArgs e)
@@ -58,7 +57,12 @@ namespace Projeto_Museu_Multitematico_PIM
         }
         private void txbPergunta5_Click(object obj)
         {
-            
+
+        }
+
+        private void btnListaAvaliacaoPergunta5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

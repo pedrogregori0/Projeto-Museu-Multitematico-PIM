@@ -13,9 +13,20 @@ namespace Projeto_Museu_Multitematico_PIM
     public partial class Formulario : Form
     {
         Thread TelaPergunta1;
+        Thread TelaTecladoNome;
+        
         public Formulario()
         {
             InitializeComponent();
+
+        }
+        internal void AdicionarCaractere(string v)
+        {
+            throw new NotImplementedException();
+        }
+        internal void AdiconarCaractere(char caractere)
+        {
+            throw new NotImplementedException();
         }
 
         private void abrirTelaPergunta1(object obj)
@@ -23,25 +34,41 @@ namespace Projeto_Museu_Multitematico_PIM
             Application.Run(new Pergunta1());
         }
 
+        private void abrirTecladoNome(object obj)
+        {
+            Application.Run(new TecladoNome());
+        }
+
+        public void AdicionarCaractere(char caractere)
+        {
+            lblRespostaNome.Text += caractere;
+        }
 
         private void btnFinalizarCadastro_Click(object sender, EventArgs e)
         {
-            if(txbNomeCadastro.Text.Length < 3 ||
-                txbSobrenomeCadastro.Text.Length < 3 ||
-                cbxFaixaEtaria.SelectedIndex == -1 ||
-                cbxGenero.SelectedIndex == -1) 
+            if (lblRespostaNome.Text.Length < 3 ||
+                lblRespostaSobrenome.Text.Length < 3 ||
+                cbxFaixaEtaria.SelectedIndex == -1)
             {
                 MessageBox.Show("Por favor preencha todos os campos corretamente para prosseguir!.");
             }
             else
             {
-            this.Close();
-            TelaPergunta1 = new Thread(abrirTelaPergunta1);
-            TelaPergunta1.SetApartmentState(ApartmentState.STA);
-            TelaPergunta1.Start();
+                this.Close();
+                TelaPergunta1 = new Thread(abrirTelaPergunta1);
+                TelaPergunta1.SetApartmentState(ApartmentState.STA);
+                TelaPergunta1.Start();
             }
 
         }
+
+        private void btnTecladoNome_Click(object sender, EventArgs e)
+        {
+            TelaTecladoNome = new Thread(abrirTecladoNome);
+            TelaTecladoNome.SetApartmentState (ApartmentState.STA);
+            TelaTecladoNome.Start();
+        }
+
     }
 }
 
