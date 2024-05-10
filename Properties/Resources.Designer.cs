@@ -103,6 +103,16 @@ namespace Projeto_Museu_Multitematico_PIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Apollo_11__nave_ {
+            get {
+                object obj = ResourceManager.GetObject("Apollo 11 (nave)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap astronauta {
             get {
                 object obj = ResourceManager.GetObject("astronauta", resourceCulture);
@@ -176,6 +186,36 @@ namespace Projeto_Museu_Multitematico_PIM.Properties {
         internal static System.Drawing.Bitmap icons8_duplo_para_a_esquerda_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-duplo-para-a-esquerda-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lancamento_do_foguete {
+            get {
+                object obj = ResourceManager.GetObject("Lancamento do foguete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Neil_Armstrong {
+            get {
+                object obj = ResourceManager.GetObject("Neil Armstrong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tripulação_apollo_11 {
+            get {
+                object obj = ResourceManager.GetObject("Tripulação apollo 11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

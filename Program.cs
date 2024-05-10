@@ -1,3 +1,5 @@
+using Projeto_Museu_Multitematico_PIM.Telas;
+
 namespace Projeto_Museu_Multitematico_PIM
 {
     internal static class Program
@@ -12,6 +14,7 @@ namespace Projeto_Museu_Multitematico_PIM
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Home());
+            
         }
     }
 }
