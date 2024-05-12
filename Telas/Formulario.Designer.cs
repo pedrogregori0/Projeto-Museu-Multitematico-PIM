@@ -44,70 +44,83 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(47, 136);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.DarkGoldenrod;
+            label1.Location = new Point(103, 181);
             label1.Name = "label1";
-            label1.Size = new Size(121, 20);
+            label1.Size = new Size(176, 30);
             label1.TabIndex = 0;
             label1.Text = "Digite seu nome:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(47, 203);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.DarkGoldenrod;
+            label2.Location = new Point(103, 271);
             label2.Name = "label2";
-            label2.Size = new Size(158, 20);
+            label2.Size = new Size(231, 30);
             label2.TabIndex = 1;
             label2.Text = "Digite seu sobrenome:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(47, 270);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.DarkGoldenrod;
+            label4.Location = new Point(103, 360);
             label4.Name = "label4";
-            label4.Size = new Size(180, 20);
+            label4.Size = new Size(259, 30);
             label4.TabIndex = 6;
             label4.Text = "Selecione sua faixa etaria:";
             // 
             // cbxFaixaEtaria
             // 
-            cbxFaixaEtaria.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            cbxFaixaEtaria.BackColor = Color.White;
+            cbxFaixaEtaria.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            cbxFaixaEtaria.ForeColor = Color.Black;
             cbxFaixaEtaria.FormattingEnabled = true;
             cbxFaixaEtaria.Items.AddRange(new object[] { "6 a 12 anos", "13 a 18 anos", "18 a 24 anos", "24 ou mais" });
-            cbxFaixaEtaria.Location = new Point(233, 266);
+            cbxFaixaEtaria.Location = new Point(368, 357);
+            cbxFaixaEtaria.Margin = new Padding(3, 4, 3, 4);
             cbxFaixaEtaria.Name = "cbxFaixaEtaria";
-            cbxFaixaEtaria.Size = new Size(121, 28);
+            cbxFaixaEtaria.Size = new Size(149, 38);
             cbxFaixaEtaria.TabIndex = 7;
             cbxFaixaEtaria.Text = "Faixa Etária";
             // 
             // btnFinalizarCadastro
             // 
-            btnFinalizarCadastro.Location = new Point(716, 427);
+            btnFinalizarCadastro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnFinalizarCadastro.Location = new Point(1301, 672);
+            btnFinalizarCadastro.Margin = new Padding(3, 4, 3, 4);
             btnFinalizarCadastro.Name = "btnFinalizarCadastro";
-            btnFinalizarCadastro.Size = new Size(121, 83);
+            btnFinalizarCadastro.Size = new Size(145, 145);
             btnFinalizarCadastro.TabIndex = 8;
-            btnFinalizarCadastro.Text = "Finalizar/ Pergunta 1";
+            btnFinalizarCadastro.Text = "Finalizar / Pergunta 1";
             btnFinalizarCadastro.UseVisualStyleBackColor = true;
             btnFinalizarCadastro.Click += btnFinalizarCadastro_Click;
             // 
             // lblPreenchaFormulario
             // 
             lblPreenchaFormulario.AutoSize = true;
-            lblPreenchaFormulario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblPreenchaFormulario.Location = new Point(272, 51);
+            lblPreenchaFormulario.BackColor = Color.Transparent;
+            lblPreenchaFormulario.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblPreenchaFormulario.ForeColor = Color.DarkGoldenrod;
+            lblPreenchaFormulario.Location = new Point(480, 68);
             lblPreenchaFormulario.Name = "lblPreenchaFormulario";
-            lblPreenchaFormulario.Size = new Size(341, 21);
+            lblPreenchaFormulario.Size = new Size(522, 32);
             lblPreenchaFormulario.TabIndex = 9;
             lblPreenchaFormulario.Text = "Preencha o formulario para avaliação do museu";
             // 
             // btnTecladoNome
             // 
-            btnTecladoNome.Location = new Point(691, 129);
-            btnTecladoNome.Margin = new Padding(3, 2, 3, 2);
+            btnTecladoNome.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTecladoNome.Location = new Point(1212, 174);
             btnTecladoNome.Name = "btnTecladoNome";
-            btnTecladoNome.Size = new Size(146, 34);
+            btnTecladoNome.Size = new Size(167, 45);
             btnTecladoNome.TabIndex = 12;
             btnTecladoNome.Text = "Responder nome";
             btnTecladoNome.UseVisualStyleBackColor = true;
@@ -115,10 +128,10 @@
             // 
             // btnTecladoSobrenome
             // 
-            btnTecladoSobrenome.Location = new Point(691, 196);
-            btnTecladoSobrenome.Margin = new Padding(3, 2, 3, 2);
+            btnTecladoSobrenome.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTecladoSobrenome.Location = new Point(1212, 264);
             btnTecladoSobrenome.Name = "btnTecladoSobrenome";
-            btnTecladoSobrenome.Size = new Size(146, 34);
+            btnTecladoSobrenome.Size = new Size(167, 45);
             btnTecladoSobrenome.TabIndex = 13;
             btnTecladoSobrenome.Text = "Responder sobrenome";
             btnTecladoSobrenome.UseVisualStyleBackColor = true;
@@ -126,29 +139,35 @@
             // 
             // txbRespostaNome
             // 
-            txbRespostaNome.BackColor = SystemColors.ControlLightLight;
-            txbRespostaNome.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txbRespostaNome.Location = new Point(174, 133);
+            txbRespostaNome.BackColor = Color.White;
+            txbRespostaNome.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txbRespostaNome.ForeColor = Color.Black;
+            txbRespostaNome.Location = new Point(285, 178);
+            txbRespostaNome.Margin = new Padding(3, 4, 3, 4);
             txbRespostaNome.Name = "txbRespostaNome";
             txbRespostaNome.ReadOnly = true;
-            txbRespostaNome.Size = new Size(498, 27);
+            txbRespostaNome.Size = new Size(879, 36);
             txbRespostaNome.TabIndex = 14;
             // 
             // txbRespostaSobrenome
             // 
-            txbRespostaSobrenome.BackColor = SystemColors.ControlLightLight;
-            txbRespostaSobrenome.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            txbRespostaSobrenome.Location = new Point(211, 200);
+            txbRespostaSobrenome.BackColor = Color.White;
+            txbRespostaSobrenome.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txbRespostaSobrenome.ForeColor = Color.Black;
+            txbRespostaSobrenome.Location = new Point(340, 268);
+            txbRespostaSobrenome.Margin = new Padding(3, 4, 3, 4);
             txbRespostaSobrenome.Name = "txbRespostaSobrenome";
             txbRespostaSobrenome.ReadOnly = true;
-            txbRespostaSobrenome.Size = new Size(461, 27);
+            txbRespostaSobrenome.Size = new Size(824, 36);
             txbRespostaSobrenome.TabIndex = 15;
             // 
             // btnSairFormulario
             // 
-            btnSairFormulario.Location = new Point(47, 427);
+            btnSairFormulario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSairFormulario.Location = new Point(37, 672);
+            btnSairFormulario.Margin = new Padding(3, 4, 3, 4);
             btnSairFormulario.Name = "btnSairFormulario";
-            btnSairFormulario.Size = new Size(121, 83);
+            btnSairFormulario.Size = new Size(145, 145);
             btnSairFormulario.TabIndex = 16;
             btnSairFormulario.Text = "Sair do formulário";
             btnSairFormulario.UseVisualStyleBackColor = true;
@@ -156,9 +175,10 @@
             // 
             // Formulario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            BackgroundImage = Properties.Resources.Espaço__nasa_;
+            ClientSize = new Size(1482, 853);
             Controls.Add(btnSairFormulario);
             Controls.Add(txbRespostaSobrenome);
             Controls.Add(txbRespostaNome);
@@ -170,6 +190,7 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Formulario";
             Text = "Formulário ";
             ResumeLayout(false);

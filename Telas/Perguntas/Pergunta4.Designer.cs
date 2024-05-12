@@ -44,21 +44,24 @@
             // lblPergunta4
             // 
             lblPergunta4.AutoSize = true;
-            lblPergunta4.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblPergunta4.Location = new Point(231, 101);
+            lblPergunta4.BackColor = Color.Transparent;
+            lblPergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblPergunta4.ForeColor = Color.DarkGoldenrod;
+            lblPergunta4.Location = new Point(398, 135);
             lblPergunta4.Name = "lblPergunta4";
-            lblPergunta4.Size = new Size(423, 20);
+            lblPergunta4.Size = new Size(681, 32);
             lblPergunta4.TabIndex = 25;
             lblPergunta4.Text = "Sobre o conteúdo apresentado, qual o seu nível de satisfação?";
             // 
             // btnListaAvaliacaoPergunta4
             // 
             btnListaAvaliacaoPergunta4.Enabled = false;
+            btnListaAvaliacaoPergunta4.Font = new Font("Segoe UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
+            btnListaAvaliacaoPergunta4.ForeColor = SystemColors.ControlText;
             btnListaAvaliacaoPergunta4.Image = Properties.Resources.botao_lista;
-            btnListaAvaliacaoPergunta4.Location = new Point(644, 420);
-            btnListaAvaliacaoPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnListaAvaliacaoPergunta4.Location = new Point(961, 655);
             btnListaAvaliacaoPergunta4.Name = "btnListaAvaliacaoPergunta4";
-            btnListaAvaliacaoPergunta4.Size = new Size(109, 109);
+            btnListaAvaliacaoPergunta4.Size = new Size(145, 145);
             btnListaAvaliacaoPergunta4.TabIndex = 24;
             btnListaAvaliacaoPergunta4.Text = "Lista de Avaliação";
             btnListaAvaliacaoPergunta4.TextAlign = ContentAlignment.BottomCenter;
@@ -67,11 +70,12 @@
             // btnProximoPergunta4
             // 
             btnProximoPergunta4.Enabled = false;
+            btnProximoPergunta4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnProximoPergunta4.ForeColor = SystemColors.ControlText;
             btnProximoPergunta4.Image = Properties.Resources.botao_direita;
-            btnProximoPergunta4.Location = new Point(473, 420);
-            btnProximoPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnProximoPergunta4.Location = new Point(766, 655);
             btnProximoPergunta4.Name = "btnProximoPergunta4";
-            btnProximoPergunta4.Size = new Size(109, 109);
+            btnProximoPergunta4.Size = new Size(145, 145);
             btnProximoPergunta4.TabIndex = 23;
             btnProximoPergunta4.Text = "Próximo";
             btnProximoPergunta4.TextAlign = ContentAlignment.BottomCenter;
@@ -81,11 +85,12 @@
             // btnVoltarPergunta4
             // 
             btnVoltarPergunta4.Enabled = false;
+            btnVoltarPergunta4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnVoltarPergunta4.ForeColor = SystemColors.ControlText;
             btnVoltarPergunta4.Image = Properties.Resources.botao_esquerda;
-            btnVoltarPergunta4.Location = new Point(302, 420);
-            btnVoltarPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnVoltarPergunta4.Location = new Point(571, 655);
             btnVoltarPergunta4.Name = "btnVoltarPergunta4";
-            btnVoltarPergunta4.Size = new Size(109, 109);
+            btnVoltarPergunta4.Size = new Size(145, 145);
             btnVoltarPergunta4.TabIndex = 22;
             btnVoltarPergunta4.Text = "Voltar";
             btnVoltarPergunta4.TextAlign = ContentAlignment.BottomCenter;
@@ -94,11 +99,12 @@
             // btnHomePergunta4
             // 
             btnHomePergunta4.Enabled = false;
+            btnHomePergunta4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHomePergunta4.ForeColor = SystemColors.ControlText;
             btnHomePergunta4.Image = Properties.Resources.botao_home;
-            btnHomePergunta4.Location = new Point(131, 420);
-            btnHomePergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnHomePergunta4.Location = new Point(376, 655);
             btnHomePergunta4.Name = "btnHomePergunta4";
-            btnHomePergunta4.Size = new Size(109, 109);
+            btnHomePergunta4.Size = new Size(145, 145);
             btnHomePergunta4.TabIndex = 21;
             btnHomePergunta4.Text = "Home";
             btnHomePergunta4.TextAlign = ContentAlignment.BottomCenter;
@@ -107,74 +113,92 @@
             // 
             // btnPessimoPergunta4
             // 
-            btnPessimoPergunta4.Location = new Point(131, 316);
-            btnPessimoPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnPessimoPergunta4.BackColor = Color.DarkGoldenrod;
+            btnPessimoPergunta4.FlatStyle = FlatStyle.Flat;
+            btnPessimoPergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPessimoPergunta4.ForeColor = Color.FromArgb(15, 14, 75);
+            btnPessimoPergunta4.Location = new Point(238, 505);
             btnPessimoPergunta4.Name = "btnPessimoPergunta4";
-            btnPessimoPergunta4.Size = new Size(622, 38);
+            btnPessimoPergunta4.Size = new Size(1006, 51);
             btnPessimoPergunta4.TabIndex = 20;
             btnPessimoPergunta4.Text = "Péssimo";
-            btnPessimoPergunta4.UseVisualStyleBackColor = true;
+            btnPessimoPergunta4.UseVisualStyleBackColor = false;
             btnPessimoPergunta4.Click += btnPessimoPergunta4_Click;
             // 
             // btnRuimPergunta4
             // 
-            btnRuimPergunta4.Location = new Point(131, 276);
-            btnRuimPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnRuimPergunta4.BackColor = Color.DarkGoldenrod;
+            btnRuimPergunta4.FlatStyle = FlatStyle.Flat;
+            btnRuimPergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRuimPergunta4.ForeColor = Color.FromArgb(15, 14, 75);
+            btnRuimPergunta4.Location = new Point(238, 434);
             btnRuimPergunta4.Name = "btnRuimPergunta4";
-            btnRuimPergunta4.Size = new Size(622, 38);
+            btnRuimPergunta4.Size = new Size(1006, 51);
             btnRuimPergunta4.TabIndex = 19;
             btnRuimPergunta4.Text = "Ruim";
-            btnRuimPergunta4.UseVisualStyleBackColor = true;
+            btnRuimPergunta4.UseVisualStyleBackColor = false;
             btnRuimPergunta4.Click += btnRuimPergunta4_Click;
             // 
             // btnRegularPergunta4
             // 
-            btnRegularPergunta4.Location = new Point(131, 236);
-            btnRegularPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnRegularPergunta4.BackColor = Color.DarkGoldenrod;
+            btnRegularPergunta4.FlatStyle = FlatStyle.Flat;
+            btnRegularPergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRegularPergunta4.ForeColor = Color.FromArgb(15, 14, 75);
+            btnRegularPergunta4.Location = new Point(238, 363);
             btnRegularPergunta4.Name = "btnRegularPergunta4";
-            btnRegularPergunta4.Size = new Size(622, 38);
+            btnRegularPergunta4.Size = new Size(1006, 51);
             btnRegularPergunta4.TabIndex = 18;
             btnRegularPergunta4.Text = "Regular / Neutro";
-            btnRegularPergunta4.UseVisualStyleBackColor = true;
+            btnRegularPergunta4.UseVisualStyleBackColor = false;
             btnRegularPergunta4.Click += btnRegularPergunta4_Click;
             // 
             // btnBomPergunta4
             // 
-            btnBomPergunta4.Location = new Point(131, 196);
-            btnBomPergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnBomPergunta4.BackColor = Color.DarkGoldenrod;
+            btnBomPergunta4.FlatStyle = FlatStyle.Flat;
+            btnBomPergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnBomPergunta4.ForeColor = Color.FromArgb(15, 14, 75);
+            btnBomPergunta4.Location = new Point(238, 292);
             btnBomPergunta4.Name = "btnBomPergunta4";
-            btnBomPergunta4.Size = new Size(622, 38);
+            btnBomPergunta4.Size = new Size(1006, 51);
             btnBomPergunta4.TabIndex = 17;
             btnBomPergunta4.Text = "Bom";
-            btnBomPergunta4.UseVisualStyleBackColor = true;
+            btnBomPergunta4.UseVisualStyleBackColor = false;
             btnBomPergunta4.Click += btnBomPergunta4_Click;
             // 
             // lblPergunta4Enunciado
             // 
             lblPergunta4Enunciado.AutoSize = true;
-            lblPergunta4Enunciado.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblPergunta4Enunciado.Location = new Point(22, 22);
+            lblPergunta4Enunciado.BackColor = Color.Transparent;
+            lblPergunta4Enunciado.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblPergunta4Enunciado.ForeColor = Color.DarkGoldenrod;
+            lblPergunta4Enunciado.Location = new Point(25, 24);
             lblPergunta4Enunciado.Name = "lblPergunta4Enunciado";
-            lblPergunta4Enunciado.Size = new Size(79, 20);
+            lblPergunta4Enunciado.Size = new Size(129, 32);
             lblPergunta4Enunciado.TabIndex = 16;
             lblPergunta4Enunciado.Text = "Pergunta 4";
             // 
             // btnExcelentePergunta4
             // 
-            btnExcelentePergunta4.Location = new Point(131, 156);
-            btnExcelentePergunta4.Margin = new Padding(3, 2, 3, 2);
+            btnExcelentePergunta4.BackColor = Color.DarkGoldenrod;
+            btnExcelentePergunta4.FlatStyle = FlatStyle.Flat;
+            btnExcelentePergunta4.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnExcelentePergunta4.ForeColor = Color.FromArgb(15, 14, 75);
+            btnExcelentePergunta4.Location = new Point(238, 221);
             btnExcelentePergunta4.Name = "btnExcelentePergunta4";
-            btnExcelentePergunta4.Size = new Size(622, 38);
+            btnExcelentePergunta4.Size = new Size(1006, 51);
             btnExcelentePergunta4.TabIndex = 15;
             btnExcelentePergunta4.Text = "Excelente";
-            btnExcelentePergunta4.UseVisualStyleBackColor = true;
+            btnExcelentePergunta4.UseVisualStyleBackColor = false;
             btnExcelentePergunta4.Click += btnExcelentePergunta4_Click;
             // 
             // Pergunta4
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            BackgroundImage = Properties.Resources.Espaço__nasa_;
+            ClientSize = new Size(1482, 853);
             Controls.Add(lblPergunta4);
             Controls.Add(btnListaAvaliacaoPergunta4);
             Controls.Add(btnProximoPergunta4);
@@ -186,7 +210,7 @@
             Controls.Add(btnBomPergunta4);
             Controls.Add(lblPergunta4Enunciado);
             Controls.Add(btnExcelentePergunta4);
-            Margin = new Padding(3, 2, 3, 2);
+            ForeColor = SystemColors.ControlLightLight;
             Name = "Pergunta4";
             Text = "Pergunta 4";
             ResumeLayout(false);

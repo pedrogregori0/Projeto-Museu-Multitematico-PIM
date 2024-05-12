@@ -43,32 +43,41 @@
             // lblListaAvaliacao
             // 
             lblListaAvaliacao.AutoSize = true;
-            lblListaAvaliacao.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblListaAvaliacao.Location = new Point(379, 101);
+            lblListaAvaliacao.BackColor = Color.Transparent;
+            lblListaAvaliacao.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            lblListaAvaliacao.ForeColor = Color.DarkGoldenrod;
+            lblListaAvaliacao.Location = new Point(632, 135);
             lblListaAvaliacao.Name = "lblListaAvaliacao";
-            lblListaAvaliacao.Size = new Size(127, 20);
+            lblListaAvaliacao.Size = new Size(219, 35);
             lblListaAvaliacao.TabIndex = 0;
             lblListaAvaliacao.Text = "Lista de avaliação";
             // 
             // btnPergunta1
             // 
-            btnPergunta1.Location = new Point(131, 156);
-            btnPergunta1.Margin = new Padding(3, 2, 3, 2);
+            btnPergunta1.BackColor = Color.DarkGoldenrod;
+            btnPergunta1.FlatStyle = FlatStyle.Flat;
+            btnPergunta1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPergunta1.ForeColor = Color.FromArgb(15, 14, 75);
+            btnPergunta1.Location = new Point(238, 221);
             btnPergunta1.Name = "btnPergunta1";
-            btnPergunta1.Size = new Size(622, 38);
+            btnPergunta1.Size = new Size(1006, 51);
             btnPergunta1.TabIndex = 1;
             btnPergunta1.Text = "Quanto didático foi a descrição das obras?";
-            btnPergunta1.UseVisualStyleBackColor = true;
+            btnPergunta1.UseVisualStyleBackColor = false;
             btnPergunta1.Click += btnPergunta1_Click;
             // 
             // btnPergunta2
             // 
-            btnPergunta2.BackColor = SystemColors.ControlLightLight;
+            btnPergunta2.BackColor = Color.FromArgb(220, 195, 133);
             btnPergunta2.Enabled = false;
-            btnPergunta2.Location = new Point(131, 196);
-            btnPergunta2.Margin = new Padding(3, 2, 3, 2);
+            btnPergunta2.FlatAppearance.BorderColor = Color.Gray;
+            btnPergunta2.FlatAppearance.BorderSize = 2;
+            btnPergunta2.FlatStyle = FlatStyle.Flat;
+            btnPergunta2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPergunta2.ForeColor = Color.FromArgb(15, 14, 75);
+            btnPergunta2.Location = new Point(238, 292);
             btnPergunta2.Name = "btnPergunta2";
-            btnPergunta2.Size = new Size(622, 38);
+            btnPergunta2.Size = new Size(1006, 51);
             btnPergunta2.TabIndex = 2;
             btnPergunta2.Text = "O percurso das obras ajudou na experiência do museu?";
             btnPergunta2.UseVisualStyleBackColor = false;
@@ -76,12 +85,16 @@
             // 
             // button4
             // 
-            button4.BackColor = SystemColors.ControlLightLight;
+            button4.BackColor = Color.FromArgb(220, 195, 133);
             button4.Enabled = false;
-            button4.Location = new Point(131, 276);
-            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.FlatAppearance.BorderColor = Color.Gray;
+            button4.FlatAppearance.BorderSize = 2;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.FromArgb(15, 14, 75);
+            button4.Location = new Point(238, 434);
             button4.Name = "button4";
-            button4.Size = new Size(622, 38);
+            button4.Size = new Size(1006, 51);
             button4.TabIndex = 4;
             button4.Text = "Sobre o conteúdo apresentado, qual o seu nível de satisfação?";
             button4.UseVisualStyleBackColor = false;
@@ -89,12 +102,16 @@
             // 
             // btnPergunta3
             // 
-            btnPergunta3.BackColor = SystemColors.ControlLightLight;
+            btnPergunta3.BackColor = Color.FromArgb(220, 195, 133);
             btnPergunta3.Enabled = false;
-            btnPergunta3.Location = new Point(131, 236);
-            btnPergunta3.Margin = new Padding(3, 2, 3, 2);
+            btnPergunta3.FlatAppearance.BorderColor = Color.Gray;
+            btnPergunta3.FlatAppearance.BorderSize = 2;
+            btnPergunta3.FlatStyle = FlatStyle.Flat;
+            btnPergunta3.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPergunta3.ForeColor = Color.FromArgb(15, 14, 75);
+            btnPergunta3.Location = new Point(238, 363);
             btnPergunta3.Name = "btnPergunta3";
-            btnPergunta3.Size = new Size(622, 38);
+            btnPergunta3.Size = new Size(1006, 51);
             btnPergunta3.TabIndex = 3;
             btnPergunta3.Text = "Você recomendaria a outra pessoa uma visita ao nosso museu?";
             btnPergunta3.UseVisualStyleBackColor = false;
@@ -102,12 +119,16 @@
             // 
             // btnPergunta5
             // 
-            btnPergunta5.BackColor = SystemColors.ControlLightLight;
+            btnPergunta5.BackColor = Color.FromArgb(220, 195, 133);
             btnPergunta5.Enabled = false;
-            btnPergunta5.Location = new Point(131, 316);
-            btnPergunta5.Margin = new Padding(3, 2, 3, 2);
+            btnPergunta5.FlatAppearance.BorderColor = Color.Gray;
+            btnPergunta5.FlatAppearance.BorderSize = 2;
+            btnPergunta5.FlatStyle = FlatStyle.Flat;
+            btnPergunta5.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPergunta5.ForeColor = Color.FromArgb(15, 14, 75);
+            btnPergunta5.Location = new Point(238, 505);
             btnPergunta5.Name = "btnPergunta5";
-            btnPergunta5.Size = new Size(622, 38);
+            btnPergunta5.Size = new Size(1006, 51);
             btnPergunta5.TabIndex = 5;
             btnPergunta5.Text = "Cite um tema que você gostaria de ver futuramente em nosso museu:";
             btnPergunta5.UseVisualStyleBackColor = false;
@@ -115,11 +136,11 @@
             // 
             // btnHomeListaAvaliacao
             // 
+            btnHomeListaAvaliacao.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnHomeListaAvaliacao.Image = Properties.Resources.botao_home;
-            btnHomeListaAvaliacao.Location = new Point(131, 420);
-            btnHomeListaAvaliacao.Margin = new Padding(3, 2, 3, 2);
+            btnHomeListaAvaliacao.Location = new Point(376, 655);
             btnHomeListaAvaliacao.Name = "btnHomeListaAvaliacao";
-            btnHomeListaAvaliacao.Size = new Size(109, 109);
+            btnHomeListaAvaliacao.Size = new Size(145, 145);
             btnHomeListaAvaliacao.TabIndex = 6;
             btnHomeListaAvaliacao.Text = "Home";
             btnHomeListaAvaliacao.TextAlign = ContentAlignment.BottomCenter;
@@ -128,11 +149,11 @@
             // 
             // btnVoltarListaAvaliacao
             // 
+            btnVoltarListaAvaliacao.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnVoltarListaAvaliacao.Image = Properties.Resources.botao_esquerda;
-            btnVoltarListaAvaliacao.Location = new Point(302, 420);
-            btnVoltarListaAvaliacao.Margin = new Padding(3, 2, 3, 2);
+            btnVoltarListaAvaliacao.Location = new Point(571, 655);
             btnVoltarListaAvaliacao.Name = "btnVoltarListaAvaliacao";
-            btnVoltarListaAvaliacao.Size = new Size(109, 109);
+            btnVoltarListaAvaliacao.Size = new Size(145, 145);
             btnVoltarListaAvaliacao.TabIndex = 7;
             btnVoltarListaAvaliacao.Text = "Voltar";
             btnVoltarListaAvaliacao.TextAlign = ContentAlignment.BottomCenter;
@@ -141,11 +162,11 @@
             // 
             // btnProximoListaAvaliacao
             // 
+            btnProximoListaAvaliacao.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnProximoListaAvaliacao.Image = Properties.Resources.botao_direita;
-            btnProximoListaAvaliacao.Location = new Point(473, 420);
-            btnProximoListaAvaliacao.Margin = new Padding(3, 2, 3, 2);
+            btnProximoListaAvaliacao.Location = new Point(766, 655);
             btnProximoListaAvaliacao.Name = "btnProximoListaAvaliacao";
-            btnProximoListaAvaliacao.Size = new Size(109, 109);
+            btnProximoListaAvaliacao.Size = new Size(145, 145);
             btnProximoListaAvaliacao.TabIndex = 8;
             btnProximoListaAvaliacao.Text = "Próximo";
             btnProximoListaAvaliacao.TextAlign = ContentAlignment.BottomCenter;
@@ -154,11 +175,11 @@
             // 
             // btnListaAvaliacao
             // 
+            btnListaAvaliacao.Font = new Font("Segoe UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
             btnListaAvaliacao.Image = Properties.Resources.botao_lista;
-            btnListaAvaliacao.Location = new Point(644, 420);
-            btnListaAvaliacao.Margin = new Padding(3, 2, 3, 2);
+            btnListaAvaliacao.Location = new Point(961, 655);
             btnListaAvaliacao.Name = "btnListaAvaliacao";
-            btnListaAvaliacao.Size = new Size(109, 109);
+            btnListaAvaliacao.Size = new Size(145, 145);
             btnListaAvaliacao.TabIndex = 9;
             btnListaAvaliacao.Text = "Lista de Avaliação";
             btnListaAvaliacao.TextAlign = ContentAlignment.BottomCenter;
@@ -167,9 +188,10 @@
             // 
             // ListaDeAvaliacao
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            BackgroundImage = Properties.Resources.Espaço__nasa_;
+            ClientSize = new Size(1482, 853);
             Controls.Add(btnListaAvaliacao);
             Controls.Add(btnProximoListaAvaliacao);
             Controls.Add(btnVoltarListaAvaliacao);
@@ -180,7 +202,6 @@
             Controls.Add(btnPergunta2);
             Controls.Add(btnPergunta1);
             Controls.Add(lblListaAvaliacao);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ListaDeAvaliacao";
             Text = "Lista de avaliação";
             ResumeLayout(false);

@@ -229,5 +229,10 @@ namespace Projeto_Museu_Multitematico_PIM
         {
             formulario.AdicionarCaractereNome(" ");
         }
+
+        private void TecladoNome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

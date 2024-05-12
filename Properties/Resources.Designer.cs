@@ -173,6 +173,16 @@ namespace Projeto_Museu_Multitematico_PIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Espaço__nasa_ {
+            get {
+                object obj = ResourceManager.GetObject("Espaço (nasa)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_duplo_para_a_direita_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-duplo-para-a-direita-50", resourceCulture);
@@ -213,9 +223,29 @@ namespace Projeto_Museu_Multitematico_PIM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pegada_na_lua {
+            get {
+                object obj = ResourceManager.GetObject("Pegada na lua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tripulação_apollo_11 {
             get {
                 object obj = ResourceManager.GetObject("Tripulação apollo 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Universe {
+            get {
+                object obj = ResourceManager.GetObject("Universe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

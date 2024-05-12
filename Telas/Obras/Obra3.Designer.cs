@@ -42,10 +42,9 @@
             // pcbxObra3
             // 
             pcbxObra3.Image = (Image)resources.GetObject("pcbxObra3.Image");
-            pcbxObra3.Location = new Point(151, 11);
-            pcbxObra3.Margin = new Padding(3, 2, 3, 2);
+            pcbxObra3.Location = new Point(579, 12);
             pcbxObra3.Name = "pcbxObra3";
-            pcbxObra3.Size = new Size(582, 287);
+            pcbxObra3.Size = new Size(324, 422);
             pcbxObra3.SizeMode = PictureBoxSizeMode.Zoom;
             pcbxObra3.TabIndex = 53;
             pcbxObra3.TabStop = false;
@@ -53,20 +52,23 @@
             // lblObra3
             // 
             lblObra3.AutoEllipsis = true;
-            lblObra3.Location = new Point(87, 320);
+            lblObra3.BackColor = Color.Transparent;
+            lblObra3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblObra3.ForeColor = Color.DarkGoldenrod;
+            lblObra3.Location = new Point(240, 482);
             lblObra3.Name = "lblObra3";
-            lblObra3.Size = new Size(710, 80);
+            lblObra3.Size = new Size(1003, 155);
             lblObra3.TabIndex = 52;
             lblObra3.Text = resources.GetString("lblObra3.Text");
             lblObra3.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // btnListaAvaliacaoObra3
             // 
+            btnListaAvaliacaoObra3.Font = new Font("Segoe UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
             btnListaAvaliacaoObra3.Image = Properties.Resources.botao_lista;
-            btnListaAvaliacaoObra3.Location = new Point(644, 420);
-            btnListaAvaliacaoObra3.Margin = new Padding(3, 2, 3, 2);
+            btnListaAvaliacaoObra3.Location = new Point(961, 655);
             btnListaAvaliacaoObra3.Name = "btnListaAvaliacaoObra3";
-            btnListaAvaliacaoObra3.Size = new Size(109, 109);
+            btnListaAvaliacaoObra3.Size = new Size(145, 145);
             btnListaAvaliacaoObra3.TabIndex = 51;
             btnListaAvaliacaoObra3.Text = "Lista de Avaliação";
             btnListaAvaliacaoObra3.TextAlign = ContentAlignment.BottomCenter;
@@ -75,11 +77,11 @@
             // 
             // btnProximoObra3
             // 
+            btnProximoObra3.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnProximoObra3.Image = Properties.Resources.botao_direita;
-            btnProximoObra3.Location = new Point(473, 420);
-            btnProximoObra3.Margin = new Padding(3, 2, 3, 2);
+            btnProximoObra3.Location = new Point(766, 655);
             btnProximoObra3.Name = "btnProximoObra3";
-            btnProximoObra3.Size = new Size(109, 109);
+            btnProximoObra3.Size = new Size(145, 145);
             btnProximoObra3.TabIndex = 50;
             btnProximoObra3.Text = "Próximo";
             btnProximoObra3.TextAlign = ContentAlignment.BottomCenter;
@@ -88,11 +90,11 @@
             // 
             // btnVoltarObra3
             // 
+            btnVoltarObra3.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnVoltarObra3.Image = Properties.Resources.botao_esquerda;
-            btnVoltarObra3.Location = new Point(302, 420);
-            btnVoltarObra3.Margin = new Padding(3, 2, 3, 2);
+            btnVoltarObra3.Location = new Point(571, 655);
             btnVoltarObra3.Name = "btnVoltarObra3";
-            btnVoltarObra3.Size = new Size(109, 109);
+            btnVoltarObra3.Size = new Size(145, 145);
             btnVoltarObra3.TabIndex = 49;
             btnVoltarObra3.Text = "Voltar";
             btnVoltarObra3.TextAlign = ContentAlignment.BottomCenter;
@@ -101,11 +103,11 @@
             // 
             // btnHomeObra3
             // 
+            btnHomeObra3.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnHomeObra3.Image = Properties.Resources.botao_home;
-            btnHomeObra3.Location = new Point(131, 420);
-            btnHomeObra3.Margin = new Padding(3, 2, 3, 2);
+            btnHomeObra3.Location = new Point(376, 655);
             btnHomeObra3.Name = "btnHomeObra3";
-            btnHomeObra3.Size = new Size(109, 109);
+            btnHomeObra3.Size = new Size(145, 145);
             btnHomeObra3.TabIndex = 48;
             btnHomeObra3.Text = "Home";
             btnHomeObra3.TextAlign = ContentAlignment.BottomCenter;
@@ -115,18 +117,22 @@
             // lblDestaqueMissao
             // 
             lblDestaqueMissao.AutoSize = true;
-            lblDestaqueMissao.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDestaqueMissao.Location = new Point(372, 300);
+            lblDestaqueMissao.BackColor = Color.Black;
+            lblDestaqueMissao.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDestaqueMissao.ForeColor = Color.DarkGoldenrod;
+            lblDestaqueMissao.Location = new Point(615, 436);
             lblDestaqueMissao.Name = "lblDestaqueMissao";
-            lblDestaqueMissao.Size = new Size(156, 20);
+            lblDestaqueMissao.Size = new Size(253, 32);
             lblDestaqueMissao.TabIndex = 54;
             lblDestaqueMissao.Text = "Destaques da missão";
             // 
             // Obra3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            BackgroundImage = Properties.Resources.Espaço__nasa_;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1482, 853);
             Controls.Add(lblDestaqueMissao);
             Controls.Add(pcbxObra3);
             Controls.Add(lblObra3);
@@ -134,9 +140,8 @@
             Controls.Add(btnProximoObra3);
             Controls.Add(btnVoltarObra3);
             Controls.Add(btnHomeObra3);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Obra3";
-            Text = "Obra 3";
+            Text = "Obra 3 - Destaques da missão";
             ((System.ComponentModel.ISupportInitialize)pcbxObra3).EndInit();
             ResumeLayout(false);
             PerformLayout();

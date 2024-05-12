@@ -41,11 +41,11 @@
             // 
             // pcbxObra4
             // 
+            pcbxObra4.BorderStyle = BorderStyle.FixedSingle;
             pcbxObra4.Image = (Image)resources.GetObject("pcbxObra4.Image");
-            pcbxObra4.Location = new Point(141, 11);
-            pcbxObra4.Margin = new Padding(3, 2, 3, 2);
+            pcbxObra4.Location = new Point(499, 12);
             pcbxObra4.Name = "pcbxObra4";
-            pcbxObra4.Size = new Size(603, 306);
+            pcbxObra4.Size = new Size(485, 485);
             pcbxObra4.SizeMode = PictureBoxSizeMode.Zoom;
             pcbxObra4.TabIndex = 59;
             pcbxObra4.TabStop = false;
@@ -53,20 +53,23 @@
             // lblObra4
             // 
             lblObra4.AutoEllipsis = true;
-            lblObra4.Location = new Point(87, 358);
+            lblObra4.BackColor = Color.Transparent;
+            lblObra4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblObra4.ForeColor = Color.DarkGoldenrod;
+            lblObra4.Location = new Point(240, 553);
             lblObra4.Name = "lblObra4";
-            lblObra4.Size = new Size(710, 46);
+            lblObra4.Size = new Size(1003, 96);
             lblObra4.TabIndex = 58;
             lblObra4.Text = resources.GetString("lblObra4.Text");
             lblObra4.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // btnListaAvaliacaoObra4
             // 
+            btnListaAvaliacaoObra4.Font = new Font("Segoe UI", 10.5F, FontStyle.Regular, GraphicsUnit.Point);
             btnListaAvaliacaoObra4.Image = Properties.Resources.botao_lista;
-            btnListaAvaliacaoObra4.Location = new Point(644, 420);
-            btnListaAvaliacaoObra4.Margin = new Padding(3, 2, 3, 2);
+            btnListaAvaliacaoObra4.Location = new Point(961, 655);
             btnListaAvaliacaoObra4.Name = "btnListaAvaliacaoObra4";
-            btnListaAvaliacaoObra4.Size = new Size(109, 109);
+            btnListaAvaliacaoObra4.Size = new Size(145, 145);
             btnListaAvaliacaoObra4.TabIndex = 57;
             btnListaAvaliacaoObra4.Text = "Lista de Avaliação";
             btnListaAvaliacaoObra4.TextAlign = ContentAlignment.BottomCenter;
@@ -75,11 +78,11 @@
             // 
             // btnProximoObra4
             // 
+            btnProximoObra4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnProximoObra4.Image = Properties.Resources.botao_direita;
-            btnProximoObra4.Location = new Point(473, 420);
-            btnProximoObra4.Margin = new Padding(3, 2, 3, 2);
+            btnProximoObra4.Location = new Point(766, 655);
             btnProximoObra4.Name = "btnProximoObra4";
-            btnProximoObra4.Size = new Size(109, 109);
+            btnProximoObra4.Size = new Size(145, 145);
             btnProximoObra4.TabIndex = 56;
             btnProximoObra4.Text = "Próximo";
             btnProximoObra4.TextAlign = ContentAlignment.BottomCenter;
@@ -88,11 +91,11 @@
             // 
             // btnVoltarObra4
             // 
+            btnVoltarObra4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnVoltarObra4.Image = Properties.Resources.botao_esquerda;
-            btnVoltarObra4.Location = new Point(302, 420);
-            btnVoltarObra4.Margin = new Padding(3, 2, 3, 2);
+            btnVoltarObra4.Location = new Point(571, 655);
             btnVoltarObra4.Name = "btnVoltarObra4";
-            btnVoltarObra4.Size = new Size(109, 109);
+            btnVoltarObra4.Size = new Size(145, 145);
             btnVoltarObra4.TabIndex = 55;
             btnVoltarObra4.Text = "Voltar";
             btnVoltarObra4.TextAlign = ContentAlignment.BottomCenter;
@@ -101,11 +104,11 @@
             // 
             // btnHomeObra4
             // 
+            btnHomeObra4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnHomeObra4.Image = Properties.Resources.botao_home;
-            btnHomeObra4.Location = new Point(131, 420);
-            btnHomeObra4.Margin = new Padding(3, 2, 3, 2);
+            btnHomeObra4.Location = new Point(376, 655);
             btnHomeObra4.Name = "btnHomeObra4";
-            btnHomeObra4.Size = new Size(109, 109);
+            btnHomeObra4.Size = new Size(145, 145);
             btnHomeObra4.TabIndex = 54;
             btnHomeObra4.Text = "Home";
             btnHomeObra4.TextAlign = ContentAlignment.BottomCenter;
@@ -115,18 +118,21 @@
             // lblTripulacao
             // 
             lblTripulacao.AutoSize = true;
-            lblTripulacao.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTripulacao.Location = new Point(402, 319);
+            lblTripulacao.BackColor = Color.Transparent;
+            lblTripulacao.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTripulacao.ForeColor = Color.DarkGoldenrod;
+            lblTripulacao.Location = new Point(682, 504);
             lblTripulacao.Name = "lblTripulacao";
-            lblTripulacao.Size = new Size(81, 20);
+            lblTripulacao.Size = new Size(133, 32);
             lblTripulacao.TabIndex = 60;
             lblTripulacao.Text = "Tripulação";
             // 
             // Obra4
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            BackgroundImage = Properties.Resources.Espaço__nasa_;
+            ClientSize = new Size(1482, 853);
             Controls.Add(lblTripulacao);
             Controls.Add(pcbxObra4);
             Controls.Add(lblObra4);
@@ -134,9 +140,8 @@
             Controls.Add(btnProximoObra4);
             Controls.Add(btnVoltarObra4);
             Controls.Add(btnHomeObra4);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Obra4";
-            Text = "Obra 4";
+            Text = "Obra 4 - Tripulação";
             ((System.ComponentModel.ISupportInitialize)pcbxObra4).EndInit();
             ResumeLayout(false);
             PerformLayout();

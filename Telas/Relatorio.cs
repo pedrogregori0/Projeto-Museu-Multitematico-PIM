@@ -25,8 +25,11 @@ namespace Projeto_Museu_Multitematico_PIM
             InitializeComponent();
             this.pessoa = pessoa;
             MostrarRelatorios(controle);
-            MostrarPorcentagemMedia1e2(controle);
-            MostrarPorcentagemMedia3e4(controle);
+            MostrarPorcentagemMedia1(controle);
+            MostrarPorcentagemMedia2(controle);
+            MostrarPorcentagemMedia3(controle);
+            MostrarPorcentagemMedia4(controle);
+
             lblTotalVisitantes.Text = $"Total de visitantes: {totalVisitantes.TotalDeVisitantes.ToString()}";
         }
         private void abrirTelaHome(object obj)
@@ -57,56 +60,66 @@ namespace Projeto_Museu_Multitematico_PIM
 
             lblRespotaRelatorio.Text = sbMostrarRelatorios.ToString();
         }
-        private void MostrarPorcentagemMedia1e2(Controle controle)
+        private void MostrarPorcentagemMedia1(Controle controle)
         {
-            StringBuilder sbMostrarMedia1e2 = new StringBuilder();
+            StringBuilder sbMostrarMedia1 = new StringBuilder();
 
-            sbMostrarMedia1e2.AppendLine($"Respostas pergunta 1");
-            sbMostrarMedia1e2.AppendLine();
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaExcelenteP1:F2}%   selecionaram Excelente.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaBomP1:F2}%   selecionaram Bom.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaRegularP1:F2}%   selecionaram Regular / Neutro.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaRuimP1:F2}%   selecionaram Ruim.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaPessimoP1:F2}%   selecionaram Péssimo.");
-            sbMostrarMedia1e2.AppendLine();
+            sbMostrarMedia1.AppendLine($"{controle.MediaExcelenteP1:F2}%   selecionaram Excelente.");
+            sbMostrarMedia1.AppendLine($"{controle.MediaBomP1:F2}%   selecionaram Bom.");
+            sbMostrarMedia1.AppendLine($"{controle.MediaRegularP1:F2}%   selecionaram Regular / Neutro.");
+            sbMostrarMedia1.AppendLine($"{controle.MediaRuimP1:F2}%   selecionaram Ruim.");
+            sbMostrarMedia1.AppendLine($"{controle.MediaPessimoP1:F2}%   selecionaram Péssimo.");
+            sbMostrarMedia1.AppendLine();
 
-            sbMostrarMedia1e2.AppendLine($"Respostas pergunta 2");
-            sbMostrarMedia1e2.AppendLine();
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaExcelenteP2:F2}%   selecionaram Excelente.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaBomP2:F2}%   selecionaram Bom.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaRegularP2:F2}%   selecionaram Regular / Neutro.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaRuimP2:F2}%   selecionaram Ruim.");
-            sbMostrarMedia1e2.AppendLine($"{controle.MediaPessimoP2:F2}%   selecionaram Péssimo.");
-            sbMostrarMedia1e2.AppendLine();
-
-            lblMedias1e2.Text = sbMostrarMedia1e2.ToString();
+            lblMedia1.Text = sbMostrarMedia1.ToString();
 
         }
-        private void MostrarPorcentagemMedia3e4(Controle controle)
+
+        private void MostrarPorcentagemMedia2(Controle controle)
         {
-            StringBuilder sbMostrarMedia3e4 = new StringBuilder();
+            StringBuilder sbMostrarMedia2 = new StringBuilder();
 
-            sbMostrarMedia3e4.AppendLine($"Respostas pergunta 3");
-            sbMostrarMedia3e4.AppendLine();
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaComCertezaP3:F2}%   selecionaram Com Certeza.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaSimP3:F2}%   selecionaram Sim.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaTalvezP3:F2}%   selecionaram Talvez.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaNaoP3:F2}%   selecionaram Não.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaDefinitivamenteNaoP3:F2}%   selecionaram Definitivamente Não.");
-            sbMostrarMedia3e4.AppendLine();
+            sbMostrarMedia2.AppendLine($"{controle.MediaExcelenteP2:F2}%   selecionaram Excelente.");
+            sbMostrarMedia2.AppendLine($"{controle.MediaBomP2:F2}%   selecionaram Bom.");
+            sbMostrarMedia2.AppendLine($"{controle.MediaRegularP2:F2}%   selecionaram Regular / Neutro.");
+            sbMostrarMedia2.AppendLine($"{controle.MediaRuimP2:F2}%   selecionaram Ruim.");
+            sbMostrarMedia2.AppendLine($"{controle.MediaPessimoP2:F2}%   selecionaram Péssimo.");
+            sbMostrarMedia2.AppendLine();
 
-            sbMostrarMedia3e4.AppendLine($"Respostas pergunta 4");
-            sbMostrarMedia3e4.AppendLine();
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaExcelenteP4:F2}%   selecionaram Excelente.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaBomP4:F2}%   selecionaram Bom.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaRegularP4:F2}%   selecionaram Regular / Neutro.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaRuimP4:F2}%   selecionaram Ruim.");
-            sbMostrarMedia3e4.AppendLine($"{controle.MediaPessimoP4:F2}%   selecionaram Péssimo.");
-            sbMostrarMedia3e4.AppendLine();
+            lblMedia2.Text = sbMostrarMedia2.ToString();
 
-            lblMedias3e4.Text = sbMostrarMedia3e4.ToString();
+        }
+
+        private void MostrarPorcentagemMedia3(Controle controle)
+        {
+            StringBuilder sbMostrarMedia3 = new StringBuilder();
+
+            sbMostrarMedia3.AppendLine($"{controle.MediaComCertezaP3:F2}%   selecionaram Com Certeza.");
+            sbMostrarMedia3.AppendLine($"{controle.MediaSimP3:F2}%   selecionaram Sim.");
+            sbMostrarMedia3.AppendLine($"{controle.MediaTalvezP3:F2}%   selecionaram Talvez.");
+            sbMostrarMedia3.AppendLine($"{controle.MediaNaoP3:F2}%   selecionaram Não.");
+            sbMostrarMedia3.AppendLine($"{controle.MediaDefinitivamenteNaoP3:F2}%   selecionaram Definitivamente Não.");
+            sbMostrarMedia3.AppendLine();
+
+            lblMedia3.Text = sbMostrarMedia3.ToString();
          
         }
+
+        private void MostrarPorcentagemMedia4(Controle controle)
+        {
+            StringBuilder sbMostrarMedia4 = new StringBuilder();
+
+            sbMostrarMedia4.AppendLine($"{controle.MediaExcelenteP4:F2}%   selecionaram Excelente.");
+            sbMostrarMedia4.AppendLine($"{controle.MediaBomP4:F2}%   selecionaram Bom.");
+            sbMostrarMedia4.AppendLine($"{controle.MediaRegularP4:F2}%   selecionaram Regular / Neutro.");
+            sbMostrarMedia4.AppendLine($"{controle.MediaRuimP4:F2}%   selecionaram Ruim.");
+            sbMostrarMedia4.AppendLine($"{controle.MediaPessimoP4:F2}%   selecionaram Péssimo.");
+            sbMostrarMedia4.AppendLine();
+
+            lblMedia4.Text = sbMostrarMedia4.ToString();
+
+        }
+
         private void btnSairRelatorio_Click(object sender, EventArgs e)
         {
             this.Close();
